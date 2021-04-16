@@ -14,4 +14,6 @@ def calc(a,b):
 
 a = int(input("Give me the first number: "))
 b = int(input("Give me the second number: "))
+while b == 0:
+    b = int(input("Cannot divide by 0 enter input 2 again: "))
 print("The sum of all basic operations is: {}".format(calc(a,b)))
